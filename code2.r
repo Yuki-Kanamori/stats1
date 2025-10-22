@@ -9,7 +9,7 @@ library(tidyverse)
 getwd()
 
 # 講義で使用するフォルダ「stats」を参照するように設定を変更する
-setwd("/Users/Yuki/Library/CloudStorage/Dropbox/岩手大学/R7/環境統計学1/")
+setwd("/Users/Yuki/Library/CloudStorage/Dropbox/岩手大学/R7/環境統計学Ⅰ/")
 
 # やってみよう！
 # 現在Rが使っているフォルダを確認する
