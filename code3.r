@@ -5,7 +5,7 @@ library(tidyverse)
 
 
 # ディレクトリ --------------------------------------------------------------------
-# 講義で使用するフォルダ「stats」を参照するように設定を変更する
+# 講義で使用するフォルダ「stats1」を参照するように設定を変更する
 setwd("/Users/Yuki/Library/CloudStorage/Dropbox/岩手大学/R7/環境統計学Ⅰ/")
 
 
@@ -30,13 +30,11 @@ iwate = df_kuma2 %>% filter(都道府県 == "岩手")
 
 # ヒストグラムを作成 ---------------------------------------------------------------
 # 岩手のみ
+# ビン幅はgeom_histogram()の引数に「binwidth = 400」を入れて調整する
 g = ggplot(data = iwate, aes(x = numbers))
 h = geom_histogram()
 g+h
 
-g = ggplot(data = iwate, aes(x = numbers))
-h = geom_histogram(binwidth = 400)
-g+h
 
 
 # 全都道府県
@@ -84,3 +82,8 @@ g+b+e+theme_gray(base_family = "HiraKakuPro-W3")
 # やってみよう！ -----------------------------------------------------------------
 # 青森・岩手・秋田・宮城・山形・福島のデータを抽出してtohokuに入れて，ヒストグラム，箱ひげ，および棒グラフ＋エラーバーをfacet_wrap()を使用して作成してください
 # ヒント：関数7
+
+
+
+
+
