@@ -1,6 +1,6 @@
 
 # パッケージの読み込み ----------------------------------------------------------------
-install.packages(c("sf", "NipponMap"))
+install.packages(c("sf", "NipponMap")) # 初回のみ必要なコード
 require(sf)
 require(NipponMap)
 library(tidyverse)
