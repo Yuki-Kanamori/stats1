@@ -5,7 +5,7 @@ require(tidyverse)
 # Rでサイコロを振ってみる ------------------------------------------------------------
 # サイコロを作成する
 dice = 1:6 # 出る目は1~6だと設定
-sample(dice, size = 1, replace = TRUE) # sizeはサイコロを何回振るかを表す
+sample(dice, size = 5, replace = TRUE) # sizeはサイコロを何回振るかを表す
 
 
 
@@ -38,11 +38,17 @@ for(i in 1:n){
 
 
 
+res = res %>% mutate(mean = as.numeric(平均値))
+summary(res)
+
 # 作図
 # やってみよう！
-# res1を使い，横軸にサイコロを振った回数，縦軸に平均値をとる折れ線グラフを書いてみよう
+# resを使い，横軸にサイコロを振った回数，縦軸に平均値をとる折れ線グラフを書いてみよう
 # ヒント：クマのデータを使って，横軸に年，縦軸に出現個体数のグラフを書いたよね？あれと同じ
-
+g = ggplot(data = res, aes(x = サイコロを振った数, y = mean))
+# p = geom_point()
+l = geom_line()
+g+l
 
 
 
@@ -68,6 +74,9 @@ for(i in 1:n){
 
 # やってみよう！
 # res2を使ってヒストグラムを作成してください
+g = ggplot(data = res2, aes(x = as.numeric(平均値)))
+h = geom_histogram()
+g+h
 
 
 
