@@ -33,6 +33,6 @@ https://www.dropbox.com/scl/fo/lmwjsvmz8xif2jn9o6v2y/AA9dFc1gkJRGpozDwKU0KLQ?rlk
 
 | 09 | 回帰と相関 | 自分で1から書く |
 
-| 10 | 統計モデリング1 |  自分で1から書く  |
+| 10 | 統計モデリング1 | 自分で1から書く |
 
-| 11 | 統計モデリング2 |  自分で1から書く  |
+| 11 | 統計モデリング2 | 自分で1から書く |
