@@ -12,27 +12,15 @@ https://www.socym.co.jp/book/1319
 https://www.dropbox.com/scl/fo/lmwjsvmz8xif2jn9o6v2y/AA9dFc1gkJRGpozDwKU0KLQ?rlkey=hrxvlfxl6ogv6o0k4ktgr36ja&st=5cusf3og&dl=0
 
 | 回数 | 座学の内容 | 使用するコード |
-
 |---|---|---|
-
 | 01 | ガイダンス，RとRStudioのインストール方法 | testcode |
-
 | 02 | 統計学とは | code2 |
-
 | 03 | 母集団と標本 | code2 |
-
 | 04 | 統計分析の基礎 | code3 |
-
 | 05 | 推測統計〜信頼区間 | code4 |
-
 | 06 | 仮説検定 | code5 |
-
 | 07 | 様々な仮説検定 | code6 |
-
 | 08 | 仮説検定のまとめ | code6 |
-
 | 09 | 回帰と相関 | 自分で1から書く |
-
 | 10 | 統計モデリング1 | 自分で1から書く |
-
 | 11 | 統計モデリング2 | 自分で1から書く |
